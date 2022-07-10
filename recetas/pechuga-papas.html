@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hugo Alvarenga">
+    <meta name="keywords" content="Cocina, recetas, resetas saludables, fit">
+    <meta name="description" content="PAgina destinada a recetas saludables y faciles de preparar">
+
+    <!--Inserte el link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Nuestra hoja de estilos-->
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://kit.fontawesome.com/1f210e4f42.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../Imagenes/logo4.png">
+    <title>Huguii Cocina</title>
+</head>
+
+<body class="hidden">
+    <div id="cooking">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div id=area>
+            <div id="sides">
+                <div id="pan"></div>
+                <div id="handle"></div>
+            </div>
+            <div id="pancake">
+                <div id="pastry"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU -->
+
+    <header id="header">
+        <div id="logo">
+            <img src="../Imagenes/logo4.png" alt="logo Huguii cocina">
+        </div>
+        <nav class="menu">
+            <div>
+                <a class="a-menu" href="../index.html">Inicio</a>
+            </div>
+            <div>
+                <a class="a-menu" href="index.html#recetas-faciles">Recetas fáciles y rápidas</a>
+            </div>
+            <div>
+                <a class="a-menu" href="index.html#postres-saludables">Postres saludables</a>
+            </div>
+            <div>
+                <a class="a-menu" href="index.html#about">Sobre mi</a>
+            </div>
+            <div>
+                <a class="a-menu" href="index.html#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="principal-container">
+        <div id="recetas-section" class="pollo-papas">
+            <div class="recetas-titulos">
+                <h1>Pechuga rellena con papas al horno</h1>
+            </div>
+        </div>
+
+        <section id="ingredientes">
+            <h2 class="text-receta">Ingredientes</h2>
+            <ul class="lista-ingredientes">
+                <li>
+                    <div>2</div>pechgas de pollo</li>
+                <li>
+                    <div>400</div>gramos de papas</li>
+                <li>
+                    <div>1</div>cebolla grande</li>
+                <li>
+                    <div>1/2</div>morrón</li>
+                <li>
+                    <div>300</div>gramos de queso fresco</li>
+                <li>
+                    <div>200</div>gramos de jamón en fetas</li>
+            </ul>
+        </section>
+
+        <section id="preparacion">
+            <h2 class="text-receta">preparación</h2>
+            <h3>Paso 1</h3>
+            <p>El relleno de las pechugas no puede sr mas fácil que sofreir cebolla y morrón enun sartén, una vez listo hacer una incisión en la mitad de la pechuga que quede como un sobre, cortamos queso y lo enrollamos en fetas de jamón</p>
+            <h3>Paso 2</h3>
+            <p>Agregamos la cebolla que cocinamos antes y con ayuda de 2 escarvadientes cerramos la pechuga, salpimentamos ambas y las dejamos sobre una bandeja de horno</p>
+            <h3>Paso 3</h3>
+            <p>Las papas las cortamos en dados, las ponemos en un bowl y ponemos ajo en polvo, aceite, pimentón, pimienta negra y un puñado de queso parmesano</p>
+            <h3>Paso 4</h3>
+            <p>mezclamos bien y volcamos en una asadera caliente y mandamos al horno junto con el pollo</p>
+            <h3>Paso 5</h3>
+            <p>Pasados 50 minutos a 200° en el horno sacamos, agregamos sal a las papas y listo tenes las mejores papas al horno con pechugas que vas a probar ♡</p>
+        </section>
+    </div>
+
+
+    <footer>
+        <section id="contact">
+            <hr>
+            <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+            <hr>
+
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED HUGUII DESIGNS</div>
+        </section>
+    </footer>
+
+
+    <!-- BOTON SCROLL BACK TO TOP -->
+
+    <button type="button" class="btn btn-success btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../assets/function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
